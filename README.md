@@ -26,9 +26,9 @@ Make sure you replace the text and graphcs on the silk screen on both the front 
 
 2: Make the card.
 
-This can be tricky. The components are small.   When I order cards, I have a SMD solder stencil made for the top of the card too.  The card has been designed for a pick and place machine, but I use tweezers, a magnifying glass + lots of paitence.   I do have a small reflow oven that makes the final bit somewhat simpler.  I often do some hand touchup after reflowing too.  I use the stencil on the front of the card.  The back is simple enough to hand solder, plus the screen is best hand soldered.  Pre-tin the pads on the back of the card, then allign the pin holes in the screen to the card, and use *lots* of paste flux.  The button for the top of the joystick is included, 3d print some and use them to save you finger.
+This can be tricky. The components are small.   When I order cards, I have a SMD solder stencil made for the top of the card too.  The card has been designed for a pick and place machine, but I use tweezers, a magnifying glass + lots of paitence.   I do have a small reflow oven that makes the final bit somewhat simpler.  I often do some hand touchup after reflowing too.  I use the stencil on the front of the card.
 
-3: Program the card:
+2a: (Do this before you attach the OLED) Program the card:
 
 Add the ssd1306xled library to your Arduino IDE.
 
@@ -37,6 +37,8 @@ Compile the included Tiny Missle program.
 Note:  The minor modification in that program also apply to the rest of the family of programs from tinyjoypad.com
 
 Use an Ardiuno ISP connected to the header to upload the program to the cards.   I do this before I attach the screen to make sure the cards can at least function enough to warrant me attaching the screen, battery, and speaker.
+
+2c: Attach components to the back. The back is simple enough to hand solder, plus the screen is best hand soldered.  Pre-tin the pads on the back of the card, then allign the pin holes in the screen to the card, and use *lots* of paste flux.  Attach the speaker and battery holder too.  Use a little solder for the speaker and *lots* for the battery holder.  The button for the top of the joystick is included, 3d print some and use them to save you finger.  Once all parts are installed, test it.  If it works, clean it up and use a good double sided tape adhesive (I use 3m VHB) to attach the screen to the front of the card.
 
 4:  Profit!
 
