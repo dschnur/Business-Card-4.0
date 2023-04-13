@@ -1,3 +1,4 @@
+
 # Business-Card-4.0
 Video Game Business Card
 
@@ -38,5 +39,8 @@ Note:  The minor modification in that program also apply to the rest of the fami
 Use an Ardiuno ISP connected to the header to upload the program to the cards.   I do this before I attach the screen to make sure the cards can at least function enough to warrant me attaching the screen, battery, and speaker.
 
 4:  Profit!
+
+![IMG_1908 2](https://user-images.githubusercontent.com/19963279/231891402-4f48f17f-9091-4113-976d-780c74542a1d.jpeg)
+![IMG_1925](https://user-images.githubusercontent.com/19963279/231891413-1c71943b-8d50-41b9-b3df-e85dd74759c4.jpeg)
 
 
