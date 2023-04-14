@@ -17,6 +17,7 @@ SCH_Game BCD 4.0_2023-04-13.json - EasyEDA Schematic.
 Tiny-Missile-fixed.zip - Tiny Missle.  Slightly modified to flip screen so it works with this card. Includes library driver interface code.
 ssd1306xled-master.zip - Arduino Library for the OLED screen.
 
+Download ATTinyCore for board support @ https://github.com/SpenceKonde/ATTinyCore
 
 To use:
 
