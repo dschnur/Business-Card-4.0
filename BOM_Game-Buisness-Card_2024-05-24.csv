@@ -19,5 +19,7 @@ ID,Name,Designator,Footprint,Quantity,Manufacturer Part,Manufacturer,Supplier,Su
 18,PCM12SMTR,SW2-PWR,SW-SMD_PCM12SMTR,1,PCM12SMTR,C&K,Digikey,401-2016-1-ND,0.96,
 19,ATTINY85-20MU,U1,QFN-20_L4.0-W4.0-P0.50-BL-EP,1,ATTINY85-20MU,Microchip Tech,Digikey,ATTINY85-20MU-ND,1.14,
 20,XC6206P332MR,U2,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,1,XC6206P332MR-G,TOREX,Digikey,893-XC6206P332MR-GCT-ND,0.51,
+,,,,,Double Sided VHB,3M,,,,
+,,,,,Joystick Cap / 3d Printed,You,,,,
 ,,,,,,,,,,
 ,,,,,,,,,8.325,
