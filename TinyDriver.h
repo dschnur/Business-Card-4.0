@@ -21,6 +21,9 @@
 //for TINY JOYPAD rev2 (attiny85)
 //the code work at 16MHZ internal
 //Program the chip with an arduino uno in "Arduino as ISP" mode.
+//
+// Modified by Dan Schnur to use SSD1306xled driver from tinysaur & to flip screen for use in business card.
+//
 
 #include <ssd1306xled.h>
 
@@ -39,12 +42,12 @@ void TinyOLED_Data_Start(uint8_t Y_);
 #define OledADRESS 0x78
 
 void TinyOLED_init(void){
-//DDRB = DDRB | OledSDA_HIGH;
-//DDRB = DDRB | OledSCL_HIGH;
 SSD1306.ssd1306_init();
 pinMode(1,INPUT);
 DDRB =DDRB|0b00010000;
 pinMode(A0,INPUT);
+// Flip screen for use with Game Business Card.
+// Comment out Next 2 lines for use with other systems.
 SSD1306.ssd1306_send_command(0xC0); //Flip Screen
 SSD1306.ssd1306_send_command(0xA0); //Remap address so we dont get a mirrored screen
 }
