@@ -1,7 +1,7 @@
 
 # Video Game Business Card
 
-This business card uses an ATTiny85 programmed by an Arduino AVR via the pin header. It uses the Open Source repository from Tiny Joypad for the software. The screen can be just about any 128x64 SSD1306 device. I use the .94" one to keep costs per unit down, but I designed the card with space to fit a larger size screen too. The button top of the joystick is designed in OpenScad and 3D printed. 
+This business card uses an ATTiny85 programmed by an Arduino AVR via the pin header. It uses the Open Source repository from Tiny Joypad for the software. The screen can be just about any 128x64 SSD1306 device. I use the .94" one to keep costs per unit down, but I designed the card with space to fit a larger size screen too. The pad on top of the joystick is designed in OpenScad and 3D printed. 
 
 This is very much designed to a price.  That's why there is no USB port, no rechargeable battery, and it requires an external programmer via an unpopulated AVR pin header. 
 
